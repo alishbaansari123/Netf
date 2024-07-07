@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-1{
+    background-image: url(asset/background.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+@media screen and (max-width:406px) {
+    #nav-btn{
+        position: absolute;
+        top: 19%;
+        right: 5%;
+    }
+    #nav-pic{
+        position: relative;
+    }
+
+
+}
+
+.contentpage-1{
+    margin-top: 10%;
+}
+
+.contentpage-1 .h1{
+    font-size: 50px;
+}
+
+.contentpage-1 .para{
+    font-size: 25px;
+}
+
+.section-2 {
+    background-color: black;
+}
+
+.content-1{
+    padding-top: 100px;
+}
+
+.content-1 h1{
+font-size: 55px;
+}
+
+.section-2 , .section-3{
+    border-top: 8px solid grey;
+}
+
+@media screen and(max-width:769px) {
+    .section-2{
+        margin-top: -16px;
+    }
+}
+
